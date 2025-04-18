@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw                      # Group name for all raw data sources
+    schema: spotify_dataset        # Your BigQuery dataset name
+    database: spotify-project-457217  # Your GCP project ID
+    
+    tables:
+      - name: spotify_songs           # Must match your actual BigQuery table name
+        description: "Raw Spotify tracks data loaded from Paquet"
+        
+        # Optional: Add column tests
+        columns:
+          - name: track_id
+            tests:
+              - not_null
+              - unique
+          - name: popularity
+            tests:
+              - not_null
