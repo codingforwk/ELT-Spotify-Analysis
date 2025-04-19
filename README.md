@@ -119,4 +119,3 @@ docker-compose down
 
 - This project assumes that your raw data CSV file (dataset.csv) is structured as expected and has been uploaded to the data/ folder.
 - The my-creds.json should contain the GCP service account credentials for accessing BigQuery and GCS.
-```
