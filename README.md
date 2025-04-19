@@ -1,4 +1,6 @@
 # ELT-Spotify-Analysis
+![image](https://github.com/user-attachments/assets/3102adac-f3fc-4eb3-9548-2b6cb8df52b9)
+
 
 # 🎵 Spotify Analytics Pipeline
 
