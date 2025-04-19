@@ -4,6 +4,8 @@ sources:
   - name: spotify_dataset                     # Group name for all raw data sources
     schema: spotify_dataset      # Your BigQuery dataset name
     database: spotify-project-457217  # Your GCP project ID
+    meta:
+      location: "EU"
     
     tables:
       - name: spotify_songs           # Must match your actual BigQuery table name

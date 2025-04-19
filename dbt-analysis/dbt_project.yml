@@ -39,8 +39,10 @@ models:
   dbt_analysis:
     # Applies to all files under models/example/
     staging:
-      +schema: staging_dataset   # Ensures models go into `staging_dataset`
+      +schema: sportify_dataset_staging   # Ensures models go into `staging_dataset`
       +materialized: view
+      +location: "EU"
     marts:
       +schema: analytics_dataset # Ensures models go into `analytics_dataset`
       +materialized: table
+      +location: "EU"
