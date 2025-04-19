@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  loader:
+    build: .
+    container_name: spotify_loader
+    volumes:
+      - ./data:/app/data
+      - ./terraform/keys/my-creds.json:/app/my-creds.json
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/my-creds.json
