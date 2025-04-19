@@ -9,6 +9,6 @@ select
     -- Popularity metrics
     avg(popularity) as avg_popularity,
     count(distinct track_id) as track_count
-from {{ source("raw", "spotify_songs") }}
+from {{ source("spotify_dataset", "spotify_songs") }}
 where track_genre is not null
 group by 1

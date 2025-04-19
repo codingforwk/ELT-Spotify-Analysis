@@ -1,8 +1,8 @@
 version: 2
 
 sources:
-  - name: raw                      # Group name for all raw data sources
-    schema: spotify_dataset        # Your BigQuery dataset name
+  - name: spotify_dataset                     # Group name for all raw data sources
+    schema: spotify_dataset      # Your BigQuery dataset name
     database: spotify-project-457217  # Your GCP project ID
     
     tables:

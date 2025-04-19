@@ -10,7 +10,7 @@ WITH exploded_artists AS (
   SELECT
     track_id,
     TRIM(artist) AS artist_name
-  FROM {{ source('raw', 'spotify_songs') }},
+  FROM {{ source('spotify_dataset', 'spotify_songs') }},
   UNNEST(SPLIT(artists, ';')) AS artist
 )
 

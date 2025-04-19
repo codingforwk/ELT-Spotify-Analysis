@@ -36,7 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  dbt_Sanalysis:
+  dbt_analysis:
     # Applies to all files under models/example/
     staging:
       +schema: staging_dataset   # Ensures models go into `staging_dataset`

@@ -1,6 +1,6 @@
 {{
   config(
-    materialized='view',
+    materialized='table',
     schema='staging'
   )
 }}
@@ -28,7 +28,7 @@ SELECT
   END AS content_rating,
   -- Genre handling
   track_genre AS primary_genre
-FROM {{ source('raw', 'spotify_songs') }}
+FROM {{ source('spotify_dataset', 'spotify_songs') }}
 WHERE
   track_id IS NOT NULL
   AND popularity IS NOT NULL
