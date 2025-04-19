@@ -5,7 +5,8 @@
 **Problem Solved**: Identify high-potential artists and genres by analyzing Spotify track data (popularity, danceability, energy).  
 
 # 🔨 End-to-End Data Pipeline Architecture
-![project arc](https://github.com/user-attachments/assets/848c0b78-e1b4-4961-b7ea-d49421bc383a)
+![project arc](https://github.com/user-attachments/assets/7ea14a52-730c-4d03-a273-8fcc8b1ce008)
+
 
 
 ## 🛠️ Technologies Used
