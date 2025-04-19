@@ -2,7 +2,7 @@
 
 # 🎵 Spotify Analytics Pipeline
 
-**Problem Solved**: Identify high-potential artists and genres by analyzing Spotify track data (popularity, danceability, energy).  
+**Problem**: Spotify's streaming data provides rich insights into music preferences, but raw data alone doesn’t reveal trends. This project transforms raw track data into actionable analytics, identifying high-potential artists, genre performance, and commercial success drivers. 
 
 # 🔨 End-to-End Data Pipeline Architecture
 ![project arc](https://github.com/user-attachments/assets/7ea14a52-730c-4d03-a273-8fcc8b1ce008)
