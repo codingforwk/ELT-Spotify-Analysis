@@ -19,8 +19,9 @@
 | **Docker** | Containerization                  |
 
 
-## 📊 Live Dashboard
-[![Dashboard Preview](https://i.imgur.com/Jr6q3Yl.png)](https://lookerstudio.google.com/embed/reporting/1042d64e-3b81-4f45-b49f-1373c1d5b3eb/page/ZRXHF)
+## 📊 Dashboard
+![image](https://github.com/user-attachments/assets/c0d04f67-618c-43d4-beaa-0125d67064c3)
+
 
 ## 🚀 Reproduction Steps
 
