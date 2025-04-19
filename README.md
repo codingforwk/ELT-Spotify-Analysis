@@ -25,22 +25,21 @@
 
 ## 🚀 Reproduction Steps
 
-Prerequisites
+## Prerequisites
 
 Before using the project, ensure you have the following:
 
-    Docker installed on your local machine.
+- Docker installed on your local machine.
+- GCP credentials (saved as `my-creds.json`).
+- Active Google Cloud project with access to BigQuery and GCS.
+- (Optional) DBT Cloud for running DBT models.
 
-    GCP credentials (saved as my-creds.json).
+## Setup Instructions
 
-    Active Google Cloud project with access to BigQuery and GCS.
-
-    (Optional) DBT Cloud for running DBT models.
-
-Setup Instructions
-1. Clone the Project
+### 1. Clone the Project
 
 Clone this repository to your local machine:
+
 
 git clone <repository_url>
 cd <project_directory>
@@ -110,4 +109,3 @@ Notes
     This project assumes that your raw data CSV file (dataset.csv) is structured as expected and has been uploaded to the data/ folder.
 
     The my-creds.json should contain the GCP service account credentials for accessing BigQuery and GCS.
-
