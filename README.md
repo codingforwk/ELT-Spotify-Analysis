@@ -13,9 +13,11 @@
 | Tool          | Purpose                          |
 |---------------|----------------------------------|
 | **Terraform** | GCP infrastructure (BigQuery, GCS) |
-| **Python**    | Data loading from CSV to BigQuery |
+| **Python**    | Data loading from CSV to Google Storage |
 | **dbt**       | Transform raw data into analytics-ready models |
 | **Looker Studio** | Visualization                  |
+| **Docker** | Containerization                  |
+
 
 ## 📊 Live Dashboard
 [![Dashboard Preview](https://i.imgur.com/Jr6q3Yl.png)](https://lookerstudio.google.com/embed/reporting/1042d64e-3b81-4f45-b49f-1373c1d5b3eb/page/ZRXHF)
