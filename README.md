@@ -6,6 +6,12 @@
 
 **Problem**: Spotify's streaming data provides rich insights into music preferences, but raw data alone doesn’t reveal trends. This project transforms raw track data into actionable analytics, identifying high-potential artists, genre performance, and commercial success drivers. 
 
+# ⚙ Dataset
+
+[Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?resource=download)
+
+This is a dataset of Spotify tracks over a range of 125 different genres. Each track has some audio features associated with it. The data is in CSV format which is tabular and can be loaded quickly.
+
 # 🔨 End-to-End Data Pipeline Architecture
 ![project arc](https://github.com/user-attachments/assets/7ea14a52-730c-4d03-a273-8fcc8b1ce008)
 
